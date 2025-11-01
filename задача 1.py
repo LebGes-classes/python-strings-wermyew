@@ -11,6 +11,7 @@ for char in text: # проходимся по каждому символу
             word = ""
     else:
         word += char
+
 # Добавляем последнюю часть
 if word:
     list_of_words.append(word)
